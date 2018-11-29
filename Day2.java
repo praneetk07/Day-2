@@ -33,5 +33,6 @@ public class Day2{
 		list.add(0);
 		System.out.println(method2(list));
 		int k= 4086;
+		System.out.println(convertToArrayList(k));
 	}
 }
