@@ -25,7 +25,8 @@ public class Day2{
 		int k= 4086;
 		System.out.println(convertToArrayList(k));
 
-
+		int j = 123456781;
+		System.out.println(convertToArrayList(j));
 		ArrayList<Integer> list = new ArrayList<>();
 		list.add(1);
 		list.add(2);
