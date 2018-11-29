@@ -1,20 +1,14 @@
 import java.util.ArrayList;
 public class Day2{
-	public static void main(String[] args){
-		System.out.println("Praneet");
-
-		System.out.println("Lucas");
-
-		System.out.println("Dhruv");
-		System.out.println("Hi");
-		int k=0;
-		ArrayList<Integer> list = new ArrayList<>();
-		list.add(8);
-		list.add(9);
-		list.add(5);
-		list.add(0);
-		System.out.println(method2(list));
-
+	public static ArrayList<Integer> convertToArrayList(int x){
+		ArrayList<Integer> a = new ArrayList<>();
+		int b = x;
+		while (b/10!=0 || b%10!=0){
+			int y = b%10;
+			b = b/10;
+			a.add(0,y);
+		}
+		return a;
 	}
 	public static int method2(ArrayList<Integer> a){
 		int b=0;
@@ -24,5 +18,26 @@ public class Day2{
 		}
 		b/=10;
 		return b;
+	}
+	public static void main(String[] args){
+		System.out.println("Praneet");
+
+		System.out.println("Lucas");
+
+		System.out.println("Dhruv");
+		System.out.println("Hi");
+		ArrayList<Integer> list = new ArrayList<>();
+		list.add(8);
+		list.add(9);
+		list.add(5);
+		list.add(0);
+		System.out.println(method2(list));
+		int k= 4086;
+		System.out.println(convertToArrayList(k));
+		ArrayList<Integer> list2 = new ArrayList<>();
+		list2.add(1);
+		list2.add(2);
+		list2.add(3);
+		list2.add(4);
 	}
 }
