@@ -32,7 +32,7 @@ public class Day2{
 		list.add(5);
 		list.add(0);
 		System.out.println(method2(list));
-		int k= 4086;
+		int k= 8950;
 		System.out.println(convertToArrayList(k));
 	}
 }
