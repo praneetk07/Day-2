@@ -33,11 +33,5 @@ public class Day2{
 		list.add(0);
 		System.out.println(method2(list));
 		int k= 4086;
-		System.out.println(convertToArrayList(k));
-		ArrayList<Integer> list2 = new ArrayList<>();
-		list2.add(1);
-		list2.add(2);
-		list2.add(3);
-		list2.add(4);
 	}
 }
